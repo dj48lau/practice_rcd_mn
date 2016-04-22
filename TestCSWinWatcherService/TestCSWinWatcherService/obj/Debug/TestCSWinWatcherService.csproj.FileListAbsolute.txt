@@ -1,0 +1,31 @@
+c:\users\m.nicolae\documents\visual studio 2012\Projects\TestCSWinWatcherService\TestCSWinWatcherService\bin\Debug\TestCSWinWatcherService.exe.config
+c:\users\m.nicolae\documents\visual studio 2012\Projects\TestCSWinWatcherService\TestCSWinWatcherService\bin\Debug\TestCSWinWatcherService.exe
+c:\users\m.nicolae\documents\visual studio 2012\Projects\TestCSWinWatcherService\TestCSWinWatcherService\bin\Debug\TestCSWinWatcherService.pdb
+c:\users\m.nicolae\documents\visual studio 2012\Projects\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.csprojResolveAssemblyReference.cache
+c:\users\m.nicolae\documents\visual studio 2012\Projects\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.Installer1.resources
+c:\users\m.nicolae\documents\visual studio 2012\Projects\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.Service1.resources
+c:\users\m.nicolae\documents\visual studio 2012\Projects\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.csproj.GenerateResource.Cache
+c:\users\m.nicolae\documents\visual studio 2012\Projects\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.exe
+c:\users\m.nicolae\documents\visual studio 2012\Projects\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.pdb
+C:\Users\monic\Desktop\TestCSWinWatcherService\TestCSWinWatcherService\TestCSWinWatcherService\bin\Debug\TestCSWinWatcherService.exe.config
+C:\Users\monic\Desktop\TestCSWinWatcherService\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.exe
+C:\Users\monic\Desktop\TestCSWinWatcherService\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.pdb
+D:\Mona\TestCSWinWatcherService\TestCSWinWatcherService\bin\Debug\TestCSWinWatcherService.exe
+D:\Mona\TestCSWinWatcherService\TestCSWinWatcherService\bin\Debug\TestCSWinWatcherService.exe.config
+D:\Mona\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.Installer1.resources
+D:\Mona\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.csproj.GenerateResource.Cache
+D:\Mona\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.exe
+D:\Mona\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.pdb
+D:\Mona\TestCSWinWatcherService\TestCSWinWatcherService\bin\Debug\TestCSWinWatcherService.pdb
+D:\Mona\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.csprojResolveAssemblyReference.cache
+D:\TestCSWinWatcherService\TestCSWinWatcherService\TestCSWinWatcherService\bin\Debug\TestCSWinWatcherService.exe.config
+D:\TestCSWinWatcherService\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.exe
+D:\TestCSWinWatcherService\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.pdb
+D:\Mona\TestCSWinWatcherService\TestCSWinWatcherService\TestCSWinWatcherService\bin\Debug\TestCSWinWatcherService.exe.config
+D:\Mona\TestCSWinWatcherService\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.exe
+D:\Mona\TestCSWinWatcherService\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.pdb
+D:\Mona\TestCSWinWatcherService\TestCSWinWatcherService\TestCSWinWatcherService\bin\Debug\TestCSWinWatcherService.exe
+D:\Mona\TestCSWinWatcherService\TestCSWinWatcherService\TestCSWinWatcherService\bin\Debug\TestCSWinWatcherService.pdb
+D:\Mona\TestCSWinWatcherService\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.csprojResolveAssemblyReference.cache
+D:\Mona\TestCSWinWatcherService\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.Installer1.resources
+D:\Mona\TestCSWinWatcherService\TestCSWinWatcherService\TestCSWinWatcherService\obj\Debug\TestCSWinWatcherService.csproj.GenerateResource.Cache
