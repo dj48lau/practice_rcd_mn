@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetRom.FileManagement", "NetRom.FileManagement\NetRom.FileManagement.csproj", "{86E3F653-D96D-416D-B62B-1A5ACCB209E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetRom.FileManagement.WS", "NetRom.FileManagement\NetRom.FileManagement.WS.csproj", "{86E3F653-D96D-416D-B62B-1A5ACCB209E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netrom.FileManagement.BusinessLogic", "Netrom.FileManagement.BusinessLogic\Netrom.FileManagement.BusinessLogic.csproj", "{AFA1447A-B6AE-47D0-B8E1-CEC5937974B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetRom.FileManagement.DAL", "NetRom.FileManagement.DAL\NetRom.FileManagement.DAL.csproj", "{A5C625C4-7DD4-468B-B805-10D57FDA0D23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{D397350E-DCA0-4E78-A088-9521E3D7EC91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +19,18 @@ Global
 		{86E3F653-D96D-416D-B62B-1A5ACCB209E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86E3F653-D96D-416D-B62B-1A5ACCB209E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86E3F653-D96D-416D-B62B-1A5ACCB209E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA1447A-B6AE-47D0-B8E1-CEC5937974B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA1447A-B6AE-47D0-B8E1-CEC5937974B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA1447A-B6AE-47D0-B8E1-CEC5937974B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA1447A-B6AE-47D0-B8E1-CEC5937974B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C625C4-7DD4-468B-B805-10D57FDA0D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C625C4-7DD4-468B-B805-10D57FDA0D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C625C4-7DD4-468B-B805-10D57FDA0D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C625C4-7DD4-468B-B805-10D57FDA0D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D397350E-DCA0-4E78-A088-9521E3D7EC91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D397350E-DCA0-4E78-A088-9521E3D7EC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D397350E-DCA0-4E78-A088-9521E3D7EC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D397350E-DCA0-4E78-A088-9521E3D7EC91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

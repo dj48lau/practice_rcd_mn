@@ -9,8 +9,9 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using NetRom.FileManagement.BusinessLogic;
 
-namespace NetRom.FileManagement
+namespace NetRom.FileManagement.WS
 {
     public partial class Service1 : ServiceBase
     {

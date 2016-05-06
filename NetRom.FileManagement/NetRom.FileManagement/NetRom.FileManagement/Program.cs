@@ -5,7 +5,8 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetRom.FileManagement
+
+namespace NetRom.FileManagement.WS
 {
     static class Program
     {

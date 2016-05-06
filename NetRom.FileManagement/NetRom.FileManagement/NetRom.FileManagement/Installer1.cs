@@ -6,7 +6,7 @@ using System.Configuration.Install;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NetRom.FileManagement
+namespace NetRom.FileManagement.WS
 {
     [RunInstaller(true)]
     public partial class Installer1 : System.Configuration.Install.Installer

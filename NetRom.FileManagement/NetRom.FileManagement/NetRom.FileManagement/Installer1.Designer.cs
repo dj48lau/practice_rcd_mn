@@ -1,4 +1,4 @@
-﻿namespace NetRom.FileManagement
+﻿namespace NetRom.FileManagement.WS
 {
     partial class Installer1
     {
