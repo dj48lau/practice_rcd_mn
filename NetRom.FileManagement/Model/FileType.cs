@@ -12,6 +12,7 @@ namespace Model
         public int FileTypeId { get; set; }
         public string Path { get; set; }
         public int SyncInMin { get; set; }
+        
 
     }
 }

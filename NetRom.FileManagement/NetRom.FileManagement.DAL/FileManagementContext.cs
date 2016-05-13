@@ -13,7 +13,7 @@ namespace NetRom.FileManagement.DAL
     {
         
         public FileManagementContext()
-            : base("Data Source=NETROM-15;Initial Catalog=NetRom.FileManagement.Development;Persist Security Info=True;User ID=sa; Password=sql@dmin123")
+            : base("FileManagementContext")
         {
         }
 

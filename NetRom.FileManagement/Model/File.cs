@@ -14,6 +14,6 @@ namespace Model
         public DateTime CreationDate { get; set; }
         public int FileTypeId { get; set; }
         public string Owner { get; set; }
-
+        public virtual FileType FileType { get; set; }
     }
 }

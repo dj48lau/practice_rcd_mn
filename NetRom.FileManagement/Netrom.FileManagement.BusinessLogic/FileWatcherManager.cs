@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Netrom.FileManagement.BusinessLogic.Services;
 using NetRom.FileManagement.BusinessLogic;
 
 namespace NetRom.FileManagement.BusinessLogic
@@ -50,6 +51,9 @@ namespace NetRom.FileManagement.BusinessLogic
             try
             {
                 System.IO.File.Copy(e.FullPath, _watcher.Path + "\\TxtFolder\\" + e.Name);
+                FileService fs = new FileService();
+                fs.SaveFile(e.Name);
+
             }
             catch (Exception ex)
             {
