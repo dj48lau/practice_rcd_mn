@@ -1,0 +1,15 @@
+D:\Mona\NetRom.FileManagement\NetRom.FileManagement\NetRom.FileManagement.DAL\bin\Debug\NetRom.FileManagement.DAL.dll.config
+D:\Mona\NetRom.FileManagement\NetRom.FileManagement\NetRom.FileManagement.DAL\bin\Debug\NetRom.FileManagement.DAL.dll
+D:\Mona\NetRom.FileManagement\NetRom.FileManagement\NetRom.FileManagement.DAL\bin\Debug\NetRom.FileManagement.DAL.pdb
+D:\Mona\NetRom.FileManagement\NetRom.FileManagement\NetRom.FileManagement.DAL\bin\Debug\EntityFramework.dll
+D:\Mona\NetRom.FileManagement\NetRom.FileManagement\NetRom.FileManagement.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mona\NetRom.FileManagement\NetRom.FileManagement\NetRom.FileManagement.DAL\bin\Debug\Model.dll
+D:\Mona\NetRom.FileManagement\NetRom.FileManagement\NetRom.FileManagement.DAL\bin\Debug\Model.pdb
+D:\Mona\NetRom.FileManagement\NetRom.FileManagement\NetRom.FileManagement.DAL\bin\Debug\EntityFramework.xml
+D:\Mona\NetRom.FileManagement\NetRom.FileManagement\NetRom.FileManagement.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mona\NetRom.FileManagement\NetRom.FileManagement\NetRom.FileManagement.DAL\obj\Debug\NetRom.FileManagement.DAL.csprojResolveAssemblyReference.cache
+D:\Mona\NetRom.FileManagement\NetRom.FileManagement\NetRom.FileManagement.DAL\obj\Debug\NetRom.FileManagement.DAL.dll
+D:\Mona\NetRom.FileManagement\NetRom.FileManagement\NetRom.FileManagement.DAL\obj\Debug\NetRom.FileManagement.DAL.pdb
+D:\Mona\NetRom.FileManagement\NetRom.FileManagement\NetRom.FileManagement.DAL\bin\Debug\EntityFramework.SqlServerCompact.dll
+D:\Mona\NetRom.FileManagement\NetRom.FileManagement\NetRom.FileManagement.DAL\bin\Debug\System.Data.SqlServerCe.dll
+D:\Mona\NetRom.FileManagement\NetRom.FileManagement\NetRom.FileManagement.DAL\bin\Debug\EntityFramework.SqlServerCompact.xml

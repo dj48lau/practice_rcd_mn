@@ -19,6 +19,7 @@ namespace NetRom.FileManagement.DAL
         public List<File> GetAllFiles() 
         {
             return _dbContext.Files.ToList();
+
         }
 
         public void WriteFile(File file)

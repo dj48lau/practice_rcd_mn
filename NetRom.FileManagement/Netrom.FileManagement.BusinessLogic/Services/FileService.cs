@@ -16,27 +16,36 @@ namespace Netrom.FileManagement.BusinessLogic.Services
         public FileService() 
         {
             _fileRepository = new FileRepository();
+            _fileTypeRepository = new FileTypeRepository();
         }
 
         public List<Model.File> GetAllFiles()
         {
+           
            return _fileRepository.GetAllFiles();
-        }
+                   
 
-        public void SaveFile(string fileName)
+        }
+        public void SaveFile(string filePath)
         {
             //get the extension from fileName
-            string extension = fileName.Split('.')[1];
+            //string extension = fileName.Split('.')[1];
+          
 
             //In order to get the data file 
-           File f = new File()
-            {
-                Name = fileName,
-                Size = 22,
-                CreationDate = System.DateTime.Now
-            };
+            System.IO.FileInfo fileInfo = new System.IO.FileInfo(filePath);
 
-            var fileType = _fileTypeRepository.GetFileType(extension);
+            File f = new File()
+            {
+                Name = fileInfo.Name,
+                Size = fileInfo.Length,
+                CreationDate = fileInfo.CreationTime
+            };
+            
+
+            var fileType = _fileTypeRepository.GetFileType(fileInfo.Extension.Replace(".", ""));
+
+
             if (fileType != null)
             {
                 f.FileTypeId = fileType.FileTypeId;

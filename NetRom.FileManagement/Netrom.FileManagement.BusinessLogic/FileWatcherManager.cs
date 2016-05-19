@@ -8,6 +8,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Netrom.FileManagement.BusinessLogic.Services;
 using NetRom.FileManagement.BusinessLogic;
+using NetRom.FileManagement.DAL;
 
 namespace NetRom.FileManagement.BusinessLogic
 {
@@ -50,9 +51,10 @@ namespace NetRom.FileManagement.BusinessLogic
            
             try
             {
-                System.IO.File.Copy(e.FullPath, _watcher.Path + "\\TxtFolder\\" + e.Name);
+                string filePath = _watcher.Path + "\\TxtFolder\\" + e.Name;
+                System.IO.File.Copy(e.FullPath, filePath);
                 FileService fs = new FileService();
-                fs.SaveFile(e.Name);
+                fs.SaveFile(filePath);
 
             }
             catch (Exception ex)

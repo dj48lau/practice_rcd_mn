@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Model;
 using Netrom.FileManagement.BusinessLogic.Services;
+using NetRom.FileManagement.BusinessLogic;
 
 namespace ConsoleApplication1
 {
@@ -12,21 +13,9 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            //init the service
-            FileService fileService = new FileService();
-
-            //get all files
-            var filesList = fileService.GetAllFiles();
-
-            var file = new File()
-            {
-                Name = "Mona",
-                FileTypeId = 1,
-                Size = 12,
-                CreationDate = System.DateTime.Now
-            };
-
-            Console.WriteLine(filesList.Count);
+            FileWatcherManager fm = new FileWatcherManager();
+            fm.Init();         
+           
             Console.ReadKey();
         }
     }
