@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Model;
 using NetRom.FileManagement.DAL;
+using NetRom.FileManagement.Model;
 
 namespace Netrom.FileManagement.BusinessLogic.Services
 {
@@ -13,25 +13,19 @@ namespace Netrom.FileManagement.BusinessLogic.Services
         private readonly FileRepository _fileRepository;
         private readonly FileTypeRepository _fileTypeRepository;
 
-        public FileService() 
+        public FileService()
         {
             _fileRepository = new FileRepository();
             _fileTypeRepository = new FileTypeRepository();
         }
 
-        public List<Model.File> GetAllFiles()
+        public List<NetRom.FileManagement.Model.File> GetAllFiles()
         {
-           
-           return _fileRepository.GetAllFiles();
-                   
-
+            return _fileRepository.GetAllFiles();
         }
+
         public void SaveFile(string filePath)
         {
-            //get the extension from fileName
-            //string extension = fileName.Split('.')[1];
-          
-
             //In order to get the data file 
             System.IO.FileInfo fileInfo = new System.IO.FileInfo(filePath);
 
@@ -41,16 +35,38 @@ namespace Netrom.FileManagement.BusinessLogic.Services
                 Size = fileInfo.Length,
                 CreationDate = fileInfo.CreationTime
             };
-            
 
-            var fileType = _fileTypeRepository.GetFileType(fileInfo.Extension.Replace(".", ""));
-
+            string fileTypeName = fileInfo.Extension.Replace(".", "");
+            var fileType = _fileTypeRepository.GetFileType(fileTypeName);
 
             if (fileType != null)
             {
                 f.FileTypeId = fileType.FileTypeId;
             }
-            _fileRepository.WriteFile(f);
+            else
+            {
+                 FileType ft = new FileType();
+                 ft.TypeName = fileTypeName;
+                _fileTypeRepository.AddFileType(ft);
+                 f.FileTypeId = ft.FileTypeId;
+
+            }
+            _fileRepository.AddFile(f);
+        }
+
+        public List<FileType> GetAllFileTypes()
+        {
+            return _fileTypeRepository.GetAllFileType();
+        }
+
+        public List<NetRom.FileManagement.Model.File> GetFilesByName(string text)
+        {
+            return _fileRepository.GetFilesByName(text);
+        }
+
+        public List<NetRom.FileManagement.Model.File> GetFiles(string text, IEnumerable<FileType> fileTypes, DateTime startDate, DateTime endDate)
+        {
+            return _fileRepository.GetFiles(text, fileTypes, startDate, endDate);
         }
     }
 }

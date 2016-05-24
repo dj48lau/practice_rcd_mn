@@ -61,13 +61,13 @@
     <Compile Include="Services\FileService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Model\Model.csproj">
-      <Project>{d397350e-dca0-4e78-a088-9521e3d7ec91}</Project>
-      <Name>Model</Name>
-    </ProjectReference>
     <ProjectReference Include="..\NetRom.FileManagement.DAL\NetRom.FileManagement.DAL.csproj">
       <Project>{a5c625c4-7dd4-468b-b805-10d57fda0d23}</Project>
       <Name>NetRom.FileManagement.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NetRom.FileManagement.Model\NetRom.FileManagement.Model.csproj">
+      <Project>{d397350e-dca0-4e78-a088-9521e3d7ec91}</Project>
+      <Name>NetRom.FileManagement.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

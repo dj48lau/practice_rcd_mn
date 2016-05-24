@@ -1,9 +1,9 @@
-﻿using System;
+﻿using NetRom.FileManagement.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Model;
 
 namespace NetRom.FileManagement.DAL
 {
@@ -24,6 +24,12 @@ namespace NetRom.FileManagement.DAL
         public FileType GetFileType(string extension)
         {
             return _dbContext.FileTypes.FirstOrDefault(ft => ft.TypeName.ToLower() == extension.ToLower());
+        }
+
+        public void AddFileType(FileType fileType)
+        {
+            _dbContext.FileTypes.Add(fileType);
+            _dbContext.SaveChanges();
         }
     }
 }

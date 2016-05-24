@@ -65,13 +65,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Model\Model.csproj">
-      <Project>{d397350e-dca0-4e78-a088-9521e3d7ec91}</Project>
-      <Name>Model</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Netrom.FileManagement.BusinessLogic\Netrom.FileManagement.BusinessLogic.csproj">
       <Project>{afa1447a-b6ae-47d0-b8e1-cec5937974b3}</Project>
       <Name>Netrom.FileManagement.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NetRom.FileManagement.Model\NetRom.FileManagement.Model.csproj">
+      <Project>{d397350e-dca0-4e78-a088-9521e3d7ec91}</Project>
+      <Name>NetRom.FileManagement.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
